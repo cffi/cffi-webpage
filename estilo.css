@@ -1,0 +1,125 @@
+/*
+ * CSS adapted from a Drupal theme.
+ */
+a, a:link, a:active {
+  color: #930;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+a:visited { color: #630; }
+ul { list-style-type: disc; /* padding: .3em; */}
+img { border: 0; }
+h1, h2, h3, h4, h5, h6 { margin-bottom: .25em; }
+li { padding-bottom: .3em; }
+h1 { font-size: 1.3em; line-height: 1.4em; }
+h2 { font-size: 1.2em; padding-top: .75em; }
+h3 { font-size: 1.1em; }
+h4, h5, h6 { font-size: 1em; }
+p { margin: 0 0 .5em 0; }
+br { line-height: 0.6em; }
+
+body {
+  margin: 0;
+  padding: 3em;
+  font-size: .9em;
+  line-height: 1.3em;
+  /*padding: 2em 0 0 3em;*/
+  padding-top: 0.5em;
+  padding-bottom: 0;
+  font-family: trebuchet ms, tahoma, verdana, arial, helvetica;
+  border-top: 10px solid gray;
+}
+
+#header {
+  margin-bottom: 2em;
+  clear: both;
+}
+
+#header .title {
+  font-size: 3em;
+  font-weight: bold;
+  color: #930;
+}
+
+#header .slogan {
+  margin-top: -1.4em;
+  font-size: 0.8em;
+}
+
+#content {
+  clear: both;
+}
+
+.content {
+  margin: 0 0 .5em 0;
+}
+
+.comment .content, .block .content, .menu {
+  font-size: 0.9em;
+}
+
+#main {
+  padding-left: 1em;
+  padding-right: 1em;
+  vertical-align: top;
+}
+
+.node .title {
+  font-size: 1.2em;
+}
+.node .title a,
+.node .title a:link,
+.node .title a:active,
+.node .title a:visited {
+  text-decoration: none;
+  font-weight: bold;
+}
+.node .title a:hover {
+  text-decoration: underline;
+}
+
+#sidebar-right {
+  border-left: 1px solid gray;
+  vertical-align: top;
+  padding: 10px;
+}
+
+#sidebar-right h2 {
+  padding-top: 0;
+  border: 0;
+  margin: 0;
+}
+
+.block {
+  /*padding-bottom: 1em;*/
+  /*width: 180px;*/
+  /*width: 250px;*/
+}
+.block .title {
+  font-size: 1em;
+}
+
+.block ul {
+  margin: 0;
+  padding: 0 0 0 1.25em;
+}
+
+table {
+  margin: 0;
+  padding: .5em;
+  border-collapse: collapse;
+}
+
+pre {
+  font-size: 0.8em;
+  padding: 1em;
+  background: #eee;
+}
+
+#footer {
+  font-size: 0.8em;
+  padding: 2em;
+  padding-bottom: 0;
+  text-align: right;
+}
