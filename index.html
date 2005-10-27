@@ -86,13 +86,6 @@
             <li><a href="/project/cffi/darcs/cffi-luis/">darcs tree</a> (cffi-luis)</li>
             <li><a href="/project/cffi/tarballs/">tarballs</a></li>
           </ul>
-            <!--
-            <li><a href="download/osprey-1.0a6.tar.bz2" >osprey-1.0a6.tar.bz2</a></li>
-            <li><a href="download/permaseed-1.0a6.tar.bz2" >permaseed-1.0a6.tar.bz2</a></li>
-          </ul>
-          <p><a href="/?q=node/18">Changelogs and older
-          versions</a></p>
-          -->
         </div>
       </div>
 
@@ -120,7 +113,12 @@
     stability. The status of CFFI support for various Lisp
     implementations is described in the following table:
   </p>
-  
+
+  <p><strong>Note:</strong>Most recent development has taken place
+    in the <i>cffi-luis</i> branch. The following table reflects the
+    status of that branch.
+  </p> 
+ 
   <table border="1" cellpadding="2" cellspacing="0">
     <tr bgcolor="yellow">
       <td><b>Lisp Implementation</b></td>
@@ -153,12 +151,12 @@
       <td><i>missing FOREIGN-FUNCALL</i></td>
     </tr>
     <tr>
-      <td><a href="/project/cffi/darcs/cffi-luis/src/cffi-allegro.lisp">Allegro CL</a> <i>(cffi-luis branch)</i></td>
+      <td><a href="/project/cffi/darcs/cffi-luis/src/cffi-allegro.lisp">Allegro CL</a></td>
       <td bgcolor="#60c060">Working</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/project/cffi/darcs/cffi-luis/src/cffi-corman.lisp">Corman CL</a> <i>(cffi-luis branch)</i></td>
+      <td><a href="/project/cffi/darcs/cffi-luis/src/cffi-corman.lisp">Corman CL</a></td>
       <td bgcolor="#ffff60">Partially Supported</td>
       <td><i>missing FOREIGN-FUNCALL, a few bugs left (7 out of 71 tests fail).
              note: you will need to follow
@@ -176,12 +174,12 @@
       <td><i>vendor has shown intention to contribute a CFFI-SYS backend</i></td>
     </tr>
     <tr>
-      <td><a href="/project/cffi/darcs/cffi/src/cffi-ecl.lisp">ECL</a></td>
-      <td bgcolor="#ffff60">Partially Supported</td>
-      <td><i>a few bugs left</i></td>
+      <td><a href="/project/cffi/darcs/cffi-luis/src/cffi-ecl.lisp">ECL</a></td>
+      <td bgcolor="#60c060">Working</td>
+      <td><i>Requires the CVS version of ECL</i></td>
     </tr>
     <tr>
-      <td><a href="/project/cffi/darcs/cffi-luis/src/cffi-gcl.lisp">GCL</a> <i>(cffi-luis branch)</i></td>
+      <td><a href="/project/cffi/darcs/cffi-luis/src/cffi-gcl.lisp">GCL</a></td>
       <td bgcolor="#ff6060">Broken</td>
       <td>port incomplete</td>
     </tr>
@@ -190,7 +188,7 @@
   <div id="footer">
     <p><a href="mailto:jamesjb (at) jamesjb (dot) com">James Bielman</a> and
     <a href="mailto:loliveira (at) common-lisp (dot) net">Lu&iacute;s Oliveira</a>,
-    26 September 2005</p>
+    27 October 2005</p>
   </div>
 </div>
 
