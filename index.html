@@ -83,7 +83,6 @@
         <div class="content">
           <ul>
             <li><a href="/project/cffi/darcs/cffi/">darcs tree</a></li>
-            <li><a href="/project/cffi/darcs/cffi-luis/">darcs tree</a> (cffi-luis)</li>
             <li><a href="/project/cffi/tarballs/?M=D">tarballs</a></li>
           </ul>
         </div>
@@ -110,17 +109,13 @@
 <div class="content">
   <p>CFFI is under heavy development, and not as mature as
     UFFI in terms of support for Lisp implementations and API
-    stability. The status of CFFI support for various Lisp
-    implementations is described in the following table:
+    stability. See chapter 2 of the CFFI User Manual: <em>
+    <a href="manual/html_node/Implementation-Support-and-Known-Issues.html">
+    "Implementation Support and Known Issues."</a></em>
+    Also, the status of CFFI support for various Lisp
+    implementations is summarized in the following table:
   </p>
 
-  <p><em>(<strong>Note:</strong> Most recent development has taken
-    place in the cffi-luis branch. The table reflects the
-    status of that branch. See also chapter 2 of the CFFI User Manual:
-    <a href="manual/html_node/Implementation-Support-and-Known-Issues.html">
-    "Implementation Support and Known Issues."</a>)</em> 
-  </p> 
- 
   <table border="1" cellpadding="2" cellspacing="0">
     <tr bgcolor="yellow">
       <td><b>Lisp Implementation</b></td>
@@ -153,12 +148,12 @@
       <td><i>missing FOREIGN-FUNCALL (DEFCFUN is supported though)</i></td>
     </tr>
     <tr>
-      <td><a href="/project/cffi/darcs/cffi-luis/src/cffi-allegro.lisp">Allegro CL</a></td>
+      <td><a href="/project/cffi/darcs/cffi/src/cffi-allegro.lisp">Allegro CL</a></td>
       <td bgcolor="#60c060">Working</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/project/cffi/darcs/cffi-luis/src/cffi-corman.lisp">Corman CL</a></td>
+      <td><a href="/project/cffi/darcs/cffi/src/cffi-corman.lisp">Corman CL</a></td>
       <td bgcolor="#ffff60">Partially Supported</td>
       <td><i>missing FOREIGN-FUNCALL (DEFCFUN is supported), a few bugs left
              (7 out of 71 tests fail). note: you will need to follow
@@ -176,12 +171,12 @@
       <td><i>vendor has shown intention to contribute a CFFI-SYS backend</i></td>
     </tr>
     <tr>
-      <td><a href="/project/cffi/darcs/cffi-luis/src/cffi-ecl.lisp">ECL</a></td>
+      <td><a href="/project/cffi/darcs/cffi/src/cffi-ecl.lisp">ECL</a></td>
       <td bgcolor="#60c060">Working</td>
       <td><i>Requires the CVS version of ECL</i></td>
     </tr>
     <tr>
-      <td><a href="/project/cffi/darcs/cffi-luis/src/cffi-gcl.lisp">GCL</a></td>
+      <td><a href="/project/cffi/darcs/cffi/src/cffi-gcl.lisp">GCL</a></td>
       <td bgcolor="#ff6060">Broken</td>
       <td>port incomplete</td>
     </tr>
@@ -190,7 +185,7 @@
   <div id="footer">
     <p><a href="mailto:jamesjb (at) jamesjb (dot) com">James Bielman</a> and
     <a href="mailto:loliveira (at) common-lisp (dot) net">Lu&iacute;s Oliveira</a>,
-    2 December 2005</p>
+    23 December 2005</p>
   </div>
 </div>
 
