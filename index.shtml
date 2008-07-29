@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <title>CFFI - The Common Foreign Function Interface</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+<table id="content">
+  <tr>
+    <!-- CONTENT -->
+    <td id="main" width="70%">
+
+      <div id="header">
+        <h1 class="title">CFFI</h1>
+        <div class="slogan">The Common Foreign Function Interface</div>
+      </div>
+
+      <div class="node">
+        <h2 class="title"><a id="overview">Introduction</a></h2>
+        <div class="content">
+          <p>CFFI, the Common Foreign Function Interface, purports to
+            be a portable foreign function interface for Common
+            Lisp. The CFFI library is composed of a
+            Lisp-implementation-specific backend in the CFFI-SYS
+            package, and a portable frontend in the CFFI package.
+          </p>
+          <p>The CFFI-SYS backend package defines a low-level
+            interface to the native FFI support in the Lisp
+            implementation. It offers operators for allocating and
+            dereferencing foreign memory, calling foreign functions,
+            and loading shared libraries. The CFFI frontend provides a
+            declarative interface for defining foreign functions,
+            structures, typedefs, enumerated types, etc. It is
+            implemented in portable ANSI CL making use of the
+            low-level operators exported by CFFI-SYS.
+          </p>
+        </div>
+          
+        <h2 class="title"><a id="features">Features</a></h2>
+        <div class="content">
+          <p>Key features include:</p>
+          <ul>
+            <li>an
+              extensible <a href="manual/html_node/Foreign-Types.html">foreign
+                type system</a>;</li>
+            <li><a href="manual/html_node/Callbacks.html">callback</a>
+              support;</li>
+            <li>support
+            for <a href="manual/html_node/Strings.html">foreign
+            string</a> encodings;</li>
+            <li>ported to Allegro CL, Corman CL, CLISP, CMUCL, ECL,
+              LispWorks, Clozure CL, SBCL and the Scieneer CL;</li>
+            <li>a <a href="manual/html_node/The-Groveller.html">groveller</a>;</li>
+            <li>a <a href="http://uffi.b9.com/">UFFI</a> compatibility
+              layer.</li>
+          </ul>
+        </div>
+
+        <h2 class="title"><a id="releases">Releases</a></h2>
+        <div class="content">
+          <!--#config timefmt="%B %_d, %Y" -->
+          <p>The latest released version is <!--#include
+            virtual="VERSION"-->, released on <!--#flastmod
+            file="VERSION"-->. For installation instructions, please
+            consult the
+            <a href="manual/html_node/Installation.html">Installation</a>
+            chapter of the CFFI User Manual.</p>
+        </div>
+
+      </div>
+    </td>
+    
+    <!-- MENU -->
+    <td id="sidebar-right">
+      <div class="block">
+        <h2 class="title">Documentation</h2>
+        <div class="content">
+          <ul>
+            <li><a href="/project/cffi/manual/index.html">CFFI User Manual</a></li>
+            <li><a href="/project/cffi/spec/index.html">CFFI-SYS Specification</a></li>
+            <li><a href="/project/cffi/darcs/cffi/doc/mem-vector.txt">Proposed Block Memory Interface</a></li>
+            <li><a href="/project/cffi/darcs/cffi/doc/shareable-vectors.txt">Proposed Shareable Byte Vector Interface</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="block">
+        <h2 class="title">Mailing List</h2>
+        <div class="content">
+          <ul>
+            <li><a href="http://www.common-lisp.net/mailman/listinfo/cffi-devel">cffi-devel</a>
+                (<a href="http://dir.gmane.org/gmane.lisp.cffi.devel">gmane</a>)
+              <br />development mailing list
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="block">
+        <h2 class="title">Source Code</h2>
+        <div class="content">
+          <ul>
+            <li><a href="/project/cffi/releases/cffi_<!--#include virtual="VERSION"-->.tar.gz">current version (<!--#include virtual="VERSION"-->)</a></li>
+            <li><a href="/project/cffi/darcs/cffi/">darcs tree</a>
+                (<a href="http://common-lisp.net/cgi-bin/darcsweb/darcsweb.cgi?r=cffi-cffi;a=summary">darcsweb</a>)</li>
+            <li><a href="/project/cffi/tarballs/?M=D">tarballs</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </td>
+  </tr>
+</table>
+
+<div id="main">
+  <div class="content">
+    <div id="footer">
+      <p><a href="mailto:jamesjb (at) jamesjb (dot) com">James Bielman</a> and
+        <a href="mailto:loliveira (at) common-lisp (dot) net">Lu&iacute;s Oliveira</a></p>
+    </div>
+  </div>
+</div> <!-- id main -->
+
+</body>
+</html>
