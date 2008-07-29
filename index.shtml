@@ -60,10 +60,10 @@
         <h2 class="title"><a id="releases">Releases</a></h2>
         <div class="content">
           <!--#config timefmt="%B %_d, %Y" -->
-          <p>The latest released version is <!--#include
-            virtual="VERSION"-->, released on <!--#flastmod
-            file="VERSION"-->. For installation instructions, please
-            consult the
+          <p>The latest released version is <strong><!--#include
+            virtual="VERSION"--></strong>, released
+            on <strong><!--#flastmod file="VERSION"--></strong>. For
+            installation instructions, please consult the
             <a href="manual/html_node/Installation.html">Installation</a>
             chapter of the CFFI User Manual.</p>
         </div>
