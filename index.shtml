@@ -39,7 +39,7 @@
           
         <h2 class="title"><a id="features">Features</a></h2>
         <div class="content">
-          <p>Key features include:</p>
+          <p>Some of the key features include:</p>
           <ul>
             <li>an
               extensible <a href="manual/html_node/Foreign-Types.html">foreign
@@ -60,7 +60,7 @@
         <h2 class="title"><a id="releases">Releases</a></h2>
         <div class="content">
           <!--#config timefmt="%B %_d, %Y" -->
-          <p>The latest released version is <strong><!--#include
+          <p>The latest version is <strong><!--#include
             virtual="VERSION"--></strong>, released
             on <strong><!--#flastmod file="VERSION"--></strong>. For
             installation instructions, please consult the
