@@ -113,6 +113,15 @@
         </div>
       </div>
 
+      <div class="block">
+        <h2 class="title">Bug Tracker</h2>
+        <div class="content">
+          <ul>
+            <li><a href="http://bugs.launchpad.net/cffi">Launchpad</a></li>
+          </ul>
+        </div>
+      </div>
+
     </td>
   </tr>
 </table>
