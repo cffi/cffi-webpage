@@ -84,8 +84,8 @@
           <ul>
             <li><a href="/project/cffi/manual/index.html">CFFI User Manual</a></li>
             <li><a href="/project/cffi/spec/index.html">CFFI-SYS Specification</a></li>
-            <li><a href="/project/cffi/darcs/cffi/doc/mem-vector.txt">Proposed Block Memory Interface</a></li>
-            <li><a href="/project/cffi/darcs/cffi/doc/shareable-vectors.txt">Proposed Shareable Byte Vector Interface</a></li>
+            <li><a href="http://common-lisp.net/gitweb?p=projects/cffi/cffi.git;a=blob_plain;f=doc/mem-vector.txt">Proposed Block Memory Interface</a></li>
+            <li><a href="http://common-lisp.net/gitweb?p=projects/cffi/cffi.git;a=blob_plain;f=doc/shareable-vectors.txt">Proposed Shareable Byte Vector Interface</a></li>
           </ul>
         </div>
       </div>
@@ -107,8 +107,7 @@
         <div class="content">
           <ul>
             <li><a href="/project/cffi/releases/cffi_<!--#include virtual="VERSION"-->.tar.gz">current version (<!--#include virtual="VERSION"-->)</a></li>
-            <li><a href="/project/cffi/darcs/cffi/">darcs tree</a>
-                (<a href="http://common-lisp.net/cgi-bin/darcsweb/darcsweb.cgi?r=cffi-cffi;a=summary">darcsweb</a>)</li>
+            <li><a href="http://common-lisp.net/gitweb?p=projects/cffi/cffi.git">git repository</a></li>
             <li><a href="/project/cffi/tarballs/?M=D">tarballs</a></li>
           </ul>
         </div>
