@@ -108,7 +108,7 @@
           <ul>
             <li><a href="/project/cffi/releases/cffi_<!--#include virtual="VERSION"-->.tar.gz">current version (<!--#include virtual="VERSION"-->)</a></li>
             <li><a href="http://common-lisp.net/gitweb?p=projects/cffi/cffi.git">git repository</a></li>
-            <li><a href="/project/cffi/tarballs/?M=D">tarballs</a></li>
+            <!--<li><a href="/project/cffi/tarballs/?M=D">tarballs</a></li>-->
           </ul>
         </div>
       </div>
