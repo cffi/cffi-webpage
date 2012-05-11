@@ -49,7 +49,7 @@
             <li>support
             for <a href="manual/html_node/Strings.html">foreign
             string</a> encodings;</li>
-            <li>ported to Allegro CL, Corman CL, CLISP, CMUCL, ECL,
+            <li>ported to ABCL, Allegro CL, Corman CL, CLISP, CMUCL, ECL,
               LispWorks, Clozure CL, SBCL and the Scieneer CL;</li>
             <li>a <a href="manual/html_node/The-Groveller.html">groveller</a>;</li>
             <li>a <a href="http://uffi.b9.com/">UFFI</a> compatibility
