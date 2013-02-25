@@ -62,8 +62,9 @@
             for <a href="manual/html_node/Strings.html">foreign
             string</a> encodings;</li>
             <li>ported to ABCL, Allegro CL, Corman CL, CLISP, CMUCL, Digitool MCL,
-              ECL, LispWorks, Clozure CL, SBCL and the Scieneer CL;</li>
+              ECL, LispWorks, Clozure CL, SBCL, MKCL and the Scieneer CL;</li>
             <li>a <a href="manual/html_node/The-Groveller.html">groveller</a>;</li>
+            <li>support for passing structs by value via <a href="http://sourceware.org/libffi/">libffi</a>;</li>
             <li>a <a href="http://uffi.b9.com/">UFFI</a> compatibility
               layer.</li>
           </ul>
