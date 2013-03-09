@@ -75,8 +75,9 @@
           <!--#config timefmt="%B %_d, %Y" -->
           <p>The latest version is <strong><!--#include
             virtual="VERSION"--></strong>, released
-            on <strong><!--#flastmod file="VERSION"--></strong>. For
-            installation instructions, please consult the
+            on <strong><!--#flastmod file="VERSION"--></strong>
+            (<a href="https://github.com/cffi/cffi/wiki/NEWS">release notes</a>).
+            For installation instructions, please consult the
             <a href="manual/html_node/Installation.html">Installation</a>
             chapter of the CFFI User Manual. If you're new to either CFFI
             in particular or FFIs in general, have a look at the
