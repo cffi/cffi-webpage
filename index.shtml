@@ -5,6 +5,19 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" type="text/css" href="estilo.css" />
 
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="moment.min.js"></script>
+  <script type="text/javascript">
+$.ajax({ url: "VERSION", dataType: "text"
+}).done(function(data, status, response) {
+  $(function() {
+     $("#version").text(data);
+     var date = Date.parse(response.getResponseHeader('Last-Modified'));
+     $("#timestamp").text(moment(date).format("MMMM Do, YYYY"));
+  });
+});
+  </script>
+
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-1409489-7']);
@@ -73,9 +86,9 @@
         <h2 class="title"><a id="getting-started">Getting Started</a></h2>
         <div class="content">
           <!--#config timefmt="%B %_d, %Y" -->
-          <p>The latest version is <strong><!--#include
+          <p>The latest version is <strong><span id="#version"><em>to be determined via javascript</em></span><!-- hash include
             virtual="VERSION"--></strong>, released
-            on <strong><!--#flastmod file="VERSION"--></strong>
+            on <strong><span id="#version"><em>some date to be determined via javascript</em></span><!-- hash flastmod file="VERSION"--></strong>
             (<a href="https://github.com/cffi/cffi/wiki/NEWS">release notes</a>).
             For installation instructions, please consult the
             <a href="manual/html_node/Installation.html">Installation</a>
