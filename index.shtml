@@ -12,6 +12,7 @@ $.ajax({ url: "VERSION", dataType: "text"
 }).done(function(data, status, response) {
   $(function() {
      $("#version").text(data);
+     $("#version2").text(" (" + data + ")");
      var date = Date.parse(response.getResponseHeader('Last-Modified'));
      $("#timestamp").text(moment(date).format("MMMM Do, YYYY"));
   });
@@ -121,7 +122,7 @@ $.ajax({ url: "VERSION", dataType: "text"
         <h2 class="title">Mailing List</h2>
         <div class="content">
           <ul>
-            <li><a href="http://www.common-lisp.net/mailman/listinfo/cffi-devel">cffi-devel</a>
+            <li><a href="mailto:cffi-devel+subscribe@common-lisp.net">cffi-devel</a>
                 (<a href="http://dir.gmane.org/gmane.lisp.cffi.devel">gmane</a>)
               <br />development mailing list
             </li>
@@ -133,7 +134,7 @@ $.ajax({ url: "VERSION", dataType: "text"
         <h2 class="title">Source Code</h2>
         <div class="content">
           <ul>
-            <li><a href="/project/cffi/releases/cffi_<!--#include virtual="VERSION"-->.tar.gz">current version (<!--#include virtual="VERSION"-->)</a></li>
+            <li><a href="/project/cffi/releases/cffi_latest.tar.gz">current version<span id="#version2"></span></a></li>
             <li><a href="https://github.com/cffi/cffi">git repository</a></li>
             <!--<li><a href="/project/cffi/tarballs/?M=D">tarballs</a></li>-->
             <li><a href="https://github.com/cffi/cffi/pulls">merge requests</a></li>
