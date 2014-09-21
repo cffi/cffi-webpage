@@ -87,9 +87,9 @@ $.ajax({ url: "VERSION", dataType: "text"
         <h2 class="title"><a id="getting-started">Getting Started</a></h2>
         <div class="content">
           <!--#config timefmt="%B %_d, %Y" -->
-          <p>The latest version is <strong><span id="#version"><em>to be determined via javascript</em></span><!-- hash include
+          <p>The latest version is <strong><span id="version"><em>to be determined via javascript</em></span><!-- hash include
             virtual="VERSION"--></strong>, released
-            on <strong><span id="#version"><em>some date to be determined via javascript</em></span><!-- hash flastmod file="VERSION"--></strong>
+            on <strong><span id="timestamp"><em>some date to be determined via javascript</em></span><!-- hash flastmod file="VERSION"--></strong>
             (<a href="https://github.com/cffi/cffi/wiki/NEWS">release notes</a>).
             For installation instructions, please consult the
             <a href="manual/html_node/Installation.html">Installation</a>
@@ -134,7 +134,7 @@ $.ajax({ url: "VERSION", dataType: "text"
         <h2 class="title">Source Code</h2>
         <div class="content">
           <ul>
-            <li><a href="/project/cffi/releases/cffi_latest.tar.gz">current version<span id="#version2"></span></a></li>
+            <li><a href="/project/cffi/releases/cffi_latest.tar.gz">current version<span id="version2"></span></a></li>
             <li><a href="https://github.com/cffi/cffi">git repository</a></li>
             <!--<li><a href="/project/cffi/tarballs/?M=D">tarballs</a></li>-->
             <li><a href="https://github.com/cffi/cffi/pulls">merge requests</a></li>
