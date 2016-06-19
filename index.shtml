@@ -122,7 +122,7 @@ $.ajax({ url: "VERSION", dataType: "text"
         <h2 class="title">Mailing List</h2>
         <div class="content">
           <ul>
-            <li><a href="mailto:cffi-devel+subscribe@common-lisp.net">cffi-devel</a>
+            <li><a href="https://mailman.common-lisp.net/listinfo/cffi-devel">cffi-devel</a>
                 (<a href="http://dir.gmane.org/gmane.lisp.cffi.devel">gmane</a>)
               <br />development mailing list
             </li>
