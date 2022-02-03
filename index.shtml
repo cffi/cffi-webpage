@@ -139,15 +139,7 @@ $.ajax({ url: "VERSION", dataType: "text"
             <li><a href="https://github.com/cffi/cffi">git repository</a></li>
             <!--<li><a href="/project/cffi/tarballs/?M=D">tarballs</a></li>-->
             <li><a href="https://github.com/cffi/cffi/pulls">merge requests</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="block">
-        <h2 class="title">Bug Tracker</h2>
-        <div class="content">
-          <ul>
-            <li><a href="http://bugs.launchpad.net/cffi">Launchpad</a></li>
+            <li><a href="https://github.com/cffi/cffi/issues">issues</a></li>
           </ul>
         </div>
       </div>
